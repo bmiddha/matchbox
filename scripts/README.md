@@ -6,7 +6,7 @@ Run the `get-fedora-coreos` script to download Fedora CoreOS images, verify them
 
 ```
 ./scripts/get-fedora-coreos
-./scripts/get-fedora-coreos stream version dest
+./scripts/get-fedora-coreos stream version arch dest
 ```
 
 This will create:
@@ -24,13 +24,13 @@ Run the `get-flatcar` script to download Flatcar Linux images, verify them, and 
 
 ```
 ./scripts/get-flatcar
-./scripts/get-flatcar channel version dest
+./scripts/get-flatcar channel version arch dest
 ```
 
 This will create:
 
 ```
-examples/assets/flatcar/
+examples/assets/flatcar/amd64
 └── 2605.6.0
     ├── Flatcar_Image_Signing_Key.asc
     ├── flatcar_production_image.bin.bz2
